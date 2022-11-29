@@ -5,7 +5,7 @@
 ## Sobre o projeto:
 Desafio proposto pela [DevBoost.](https://www.instagram.com/Dev_Boost/)
 
-[🔗 Clique aqui para acessar](https://andersonrodrigs.github.io/Desafio-1-DevBoost/)
+[🔗 Clique aqui para acessar](https://andersonrodrigs.github.io/Desafio-devBoost2/)
 
 ## 🛠 Tecnologias:
 - HTML
