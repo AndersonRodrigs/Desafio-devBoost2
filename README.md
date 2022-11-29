@@ -3,7 +3,7 @@
 ![image](./.github/preview.png)
 
 ## Sobre o projeto:
-Desafio proposto pela [DevBoost.](http://anderson-rodrigues-portifolio.vercel.app/)
+Desafio proposto pela [DevBoost.](https://www.instagram.com/Dev_Boost/)
 
 [🔗 Clique aqui para acessar](https://andersonrodrigs.github.io/Desafio-1-DevBoost/)
 
