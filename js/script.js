@@ -21,4 +21,3 @@ btnMobile.addEventListener("touchstart", e => {
 const main = document.querySelector("main")
 
 main.addEventListener("click", e => closeMenu())
-

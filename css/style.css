@@ -153,6 +153,10 @@ nav .menu {
   align-items: center;
 }
 
+.menu-user {
+  display: flex;
+}
+
 .menu-nav-user ul li {
   margin-right: 26px;
 }
@@ -560,5 +564,32 @@ main .home .container {
 
   .title-section {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 288px) {
+  .menu-user {
+    display: none;
+  }
+
+  header {
+    padding-inline: 0;
+  }
+
+  nav {
+    padding-inline: 25px;
+  }
+
+  .container .logo {
+    margin-left: 10px;
+  }
+
+  main .home .container {
+    padding: 15px;
+  }
+
+  #nav.active #menu {
+    width: 80%;
+    height: 100vh;
   }
 }
