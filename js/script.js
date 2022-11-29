@@ -18,3 +18,7 @@ btnMobile.addEventListener("touchstart", e => {
   toggleMenu(e)
 })
 
+const main = document.querySelector("main")
+
+main.addEventListener("click", e => closeMenu())
+
