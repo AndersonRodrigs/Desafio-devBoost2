@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/icon-page.svg" type="image/x-icon">
+    <title>DevBoost desafio 2</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo"><img src="./assets/logo.svg" alt="" /></div>
+        <nav>
+          <div class="menu" id="nav">
+            <div class="menu-nav-page" id="menu">
+              <ul class="menu-toggle">
+                <li class="active-nav"><a href="#" onclick="closeMenu()">Posts</a></li>
+                <li><a href="#" onclick="closeMenu()">Ferramentas</a></li>
+                <li>
+                  <a href="#" onclick="closeMenu()">Eventos</a>
+                </li>
+                <li><a href="#" onclick="closeMenu()">Pessoas</a></li>
+                <li><a href="#" onclick="closeMenu()">Grupos</a></li>
+                <div class="btn-menu-toggle">
+                  <button class="btn-primary" onclick="closeMenu()">
+                    <img src="./assets/icon-add.svg" alt="" /> Criar
+                  </button>
+                </div>
+              </ul>
+            </div>
+            <div class="menu-nav-user">
+              <ul>
+                <li><img src="./assets/icon-search.svg" alt="" /></li>
+              </ul>
+              <ul>
+                <li><img src="./assets/icon-social-grup.svg" alt="" /></li>
+              </ul>
+              <ul>
+                <li><img src="./assets/icon-notification.svg" alt="" /></li>
+              </ul>
+              <div class="btn">
+                <button class="btn-primary">
+                  <img src="./assets/icon-add.svg" alt="" /> Criar
+                </button>
+              </div>
+              <button id="btn-mobile">
+                <span id="hamburger"></span>
+                <span id="hamburger"></span>
+                <span id="hamburger"></span>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="container">
+          <div class="text-content">
+            <h1>Esse é o blog da <span>DevBoost</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <span>Tempus, proin augue neque</span> amet scelerisque
+              scelerisque sit.
+            </p>
+            <div class="btn">
+              <button class="btn-primary">
+                <a href="#">Saiba mais</a>
+              </button>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="./assets/Foguete.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="profile-posts">
+        <div class="container">
+          <div class="profile">
+            <h2 class="title-section">Perfil</h2>
+            <img src="./assets/profile.png" alt="" />
+            <h3 class="name">Fernando pereira</h3>
+            <p class="job">Jornalista</p>
+            <div class="info">
+              <ul>
+                <li class="active-info">
+                  <span class="number">840</span>Postagens
+                </li>
+                <li><span class="number">204</span>Favoritados</li>
+                <li><span class="number">88%</span>Score</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-posts" id="posts">
+            <h2 class="title-section">Últimas postagens</h2>
+            <div class="card-posts">
+              <div class="card">
+                <img src="./assets/img-card-1.png" alt="" />
+                <div class="info-card">
+                  <span class="info-category">Categoria</span>
+                  <p class="text-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Molestie.
+                  </p>
+                  <p class="author"><span>Autor:</span> Fernando Pereira</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/img-card-2.png" alt="" />
+                <div class="info-card">
+                  <span class="info-category">Categoria</span>
+                  <p class="text-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac
+                    dis.
+                  </p>
+                  <p class="author"><span>Autor:</span> Fernando Pereira</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/img-card-3.png" alt="" />
+                <div class="info-card">
+                  <span class="info-category">Categoria</span>
+                  <p class="text-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <p class="author"><span>Autor:</span> Fernando Pereira</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
